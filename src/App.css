@@ -8,3 +8,25 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+#lengths {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+#lengths>div {
+  border: solid white;
+  padding: 5px;
+  margin: 30px;
+}
+
+#timer-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-toggle-content {
+  margin: 10px;
+}
